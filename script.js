@@ -45,7 +45,7 @@ form.addEventListener("submit", function (event) {
   }
 
   // Show welcome message
-  const message = `Welcome ${name} from ${teamName}! We're glad you're here 😄`;
+  const message = `Welcome ${name} from ${teamName}! We're glad you're here. 😄`;
   console.log(message);
 
   greetingElement.textContent = message;
