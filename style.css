@@ -317,6 +317,7 @@ select {
   margin-bottom: 20px;
 }
 
+
 .teams-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -329,6 +330,23 @@ select {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  align-items: flex-start;
+}
+
+.team-list {
+  list-style: none;
+  margin-top: 8px;
+  width: 100%;
+  display: grid;
+  gap: 6px;
+}
+
+.team-list-item {
+  font-size: 14px;
+  color: #334155;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 6px 10px;
 }
 
 /* Team card colors */
