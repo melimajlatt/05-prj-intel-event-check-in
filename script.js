@@ -70,9 +70,12 @@ form.addEventListener("submit", function (event) {
   }
 
   if (count >= maxCount) {
-    const waterCount = parseInt(document.getElementById("waterCount").textContent, 10) || 0;
-    const zeroCount = parseInt(document.getElementById("zeroCount").textContent, 10) || 0;
-    const powerCount = parseInt(document.getElementById("powerCount").textContent, 10) || 0;
+    const waterCount =
+      parseInt(document.getElementById("waterCount").textContent, 10) || 0;
+    const zeroCount =
+      parseInt(document.getElementById("zeroCount").textContent, 10) || 0;
+    const powerCount =
+      parseInt(document.getElementById("powerCount").textContent, 10) || 0;
 
     let winningTeam = "Team Water Wise";
     let winningCount = waterCount;
@@ -90,5 +93,5 @@ form.addEventListener("submit", function (event) {
     greetingElement.textContent = `Goal reached! Celebration time — ${winningTeam} wins! 🎉`;
   }
 
-  form.reset(); 
+  form.reset();
 });
